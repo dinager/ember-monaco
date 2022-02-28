@@ -1,10 +1,8 @@
 import Controller from '@ember/controller';
 
-export default class Application extends Controller.extend({
+export default class Application extends Controller {
+   sample1 = "let x: string = 'foo'";
   // anything which *must* be merged to prototype here
-}) {
-  sample1 = "let x: string = 'foo'";
-  // normal class body definition here
 }
 
 // DO NOT DELETE: this is how TypeScript knows how to look up your controllers.
